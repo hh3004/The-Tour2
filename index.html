@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./ascess/grid.css">
+    <link rel="stylesheet" href="./ascess/base.css">
+    <link rel="stylesheet" href="./ascess/main.css">
+    <link rel="stylesheet" href="./ascess/header.css">
+    <link rel="stylesheet" href="./ascess/body.css">
+    <link rel="stylesheet" href="./ascess/footer.css">
+    <link rel="stylesheet" href="./ascess/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <div class="top-bar">
+                    <div class="top-bar__logo">
+                        <a class="top-bar__logo__link" href="#">Tour
+                            <span>.</span>
+                        </a>
+                    </div>
+                     <ul class="top-bar__list">
+                         <li class="top-bar__list__item"><a href="" class="top-bar__list__item-link top-bar__list__item-link--active">Home</a></li>
+                         <li class="top-bar__list__item">
+                             <a href="#" class="top-bar__list__item-link">Dropdown
+                                 <i class="top-bar__list__item-link-icon fa-solid fa-angle-down"></i>
+                             </a>
+                             <div class="menu-lv2">
+                                 <ul class="menu-lv2-list">
+                                     <li class="menu-lv2-item"><a href="" class="menu-lv2-item-link">Elements</a></li>
+                                     <li class="menu-lv2-item"><a href="" class="menu-lv2-item-link">Menu One</a></li>
+                                     <li class="menu-lv2-item">
+                                         <a href="" class="menu-lv2-item-link">Menu Two<i class="fa-solid fa-chevron-right"></i></a>
+                                         <div class="menu-lv3">
+                                             <ul class="menu-lv3-list">
+                                                 <li class="menu-lv3-item"><a href="" class="menu-lv3-item-link">Sub Menu One</a></li>
+                                                 <li class="menu-lv3-item"><a href="" class="menu-lv3-item-link">Sub Menu Two</a></li>
+                                                 <li class="menu-lv3-item"><a href="" class="menu-lv3-item-link">Sub Menu Three</a></li>
+                                             </ul>
+                                         </div>
+                                     </li>
+                                     <li class="menu-lv2-item"><a href="" class="menu-lv2-item-link">Menu Three</a></li>
+                                 </ul>
+                             </div>
+                         </li>
+                         <li class="top-bar__list__item"><a href="" class="top-bar__list__item-link">Services</a></li>
+                         <li class="top-bar__list__item"><a href="" class="top-bar__list__item-link">About</a></li>
+                         <li class="top-bar__list__item"><a href="" class="top-bar__list__item-link">Contact Us</a></li>
+                     </ul>
+                     <!-- topbar-tb-mb -->
+                     <input type="checkbox" name="" id="top-bar__checkbox" class="top-bar__checkbox-tb-mb">
+                     <label for="top-bar__checkbox" class="top-bar__tab-mb"><span class="top-bar__tab-mb-icon"></span></i></label>
+                     <label for="top-bar__checkbox" class="over-play"></label>
+                     <!-- menu-topbar-tb-mb -->
+                     <div class="top-bar-tb-mb">
+                         <label for="top-bar__checkbox" class="top-bar-tb-mb__icon"><i class="fa-solid fa-xmark"></i></label>
+                         <ul class="top-bar-tb-mb__menu-lv1">
+                             <li class="top-bar-tb-mb__menu-lv1__item"><a class="top-bar-tb-mb__menu-lv1__item-link menu-tb-mb__active" href="">Home</a></li>
+                             <li class="top-bar-tb-mb__menu-lv1__item">
+                                <label for="menu-lv1-checked" class="top-bar-tb-mb__menu-lv1__item-link" href="#">Dropdown
+                                    <input type="checkbox" id="menu-lv1-checked" class="top-bar-tb-mb__menu-lv1-checked">
+                                    <div class="top-bar-tb-mb__menu-lv1-icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                    <!-- menu-lv2 -->
+                                    <div class="top-bar-tb-mb__menu-lv2">
+                                        <ul class="top-bar-tb-mb__menu-lv2-list">
+                                            <li class="top-bar-tb-mb__menu-lv2-item"><a href="" class="top-bar-tb-mb__menu-lv2-item-link">Elements</a></li>
+                                            <li class="top-bar-tb-mb__menu-lv2-item"><a href="" class="top-bar-tb-mb__menu-lv2-item-link">Menu One</a></li>
+                                            <li class="top-bar-tb-mb__menu-lv2-item">
+                                                <label for="menu-lv2-checked" href="" class="top-bar-tb-mb__menu-lv2-item-link">Menu Two
+                                                    <input type="checkbox" id="menu-lv2-checked" class="top-bar-tb-mb__menu-lv2-checked">
+                                                    <div class="top-bar-tb-mb__menu-lv2-icon">
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </div>
+                                                    <!-- menu-lv3 -->
+                                                    <div class="top-bar-tb-mb__menu-lv3">
+                                                        <ul class="top-bar-tb-mb__menu-lv3-list">
+                                                            <li class="top-bar-tb-mb__menu-lv3-item"><a href="#" class="top-bar-tb-mb__menu-lv3-item-link">Sub Menu One</a></li>
+                                                            <li class="top-bar-tb-mb__menu-lv3-item"><a href="#" class="top-bar-tb-mb__menu-lv3-item-link">Sub Menu Two</a></li>
+                                                            <li class="top-bar-tb-mb__menu-lv3-item"><a href="#" class="top-bar-tb-mb__menu-lv3-item-link">Sub Menu Three</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </label>
+                                            </li>
+                                            <li class="top-bar-tb-mb__menu-lv2-item"><a href="" class="top-bar-tb-mb__menu-lv2-item-link">Menu Three</a></li>
+                                        </ul>
+                                    </div>
+                                </label>
+                            </li>
+                             <li class="top-bar-tb-mb__menu-lv1__item"><a class="top-bar-tb-mb__menu-lv1__item-link" href="">Services</a></li>
+                             <li class="top-bar-tb-mb__menu-lv1__item"><a class="top-bar-tb-mb__menu-lv1__item-link" href="">Contact Us</a></li>
+                         </ul>
+                     </div>
+                </div> 
+                <div class="header-content">
+                    <div class="row ">
+                        <div class="col l-7 m-12 c-12">
+                            <div class="header-content-info">
+                                <h1 class="header-content-info__heading">
+                                     <span>Let's Enjoy Your</span>
+                                     <span>Trip In 
+                                         <span class="header-content-info__heading-text">New Zealand.</span>
+                                     </span> 
+                                </h1>
+                                <div class="row">
+                                    <div class="col l-12 m-12 c-12">
+                                        <div class="header-content-info__box">
+                                            <form class="header-content-info__box-control">
+                                                <div class="col l-4 m-6 c-12">
+                                                    <select name="" id="" class="box-header box-header--select">
+                                                        <option value="">Destination</option>
+                                                        <option value="">Peru</option>
+                                                        <option value="">Japan</option>
+                                                        <option value="">Thailand</option>
+                                                        <option value="">Brazil</option>
+                                                        <option value="">United States</option>
+                                                        <option value="">Israel</option>
+                                                        <option value="">China</option>
+                                                        <option value="">Russia</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col l-5 m-6 c-12">
+                                                     <input type="text" name="daterange" class="box-header box-header--date" placeholder="05/31/2022 - 05/31/2022"></input>
+                                                </div>
+                                                <div class="col l-3 m-6 c-12">
+                                                     <input type="text" placeholder="# of People" class="box-header box-header--tag"></input>
+                                                </div>
+                                                <div class="col l-4 m-12 c-12">
+                                                     <div class="box-header__btn-search">
+                                                         <input type="submit" value="Search" class="box-header box-header--submit"></button>
+                                                     </div>
+                                                </div>
+                                                 
+                                                <div class="col l-5">
+                                                     <label for="checkbox-test" class="header__check-box">
+                                                         <input type="checkbox" class="box-header--checked" id="checkbox-test"><span>Save this search</span>
+                                                         <div class="box-header--check-box "></div>
+                                                     </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-0 c-0">
+                             <div class="header-content-img">
+                                 <img src="./images/hero-slider-3.jpg" alt="">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </header>
+
+        <div class="body">
+
+            <!-- start services -->
+            <div class="body__label">
+                 <h2 class="body__label-slogan">Our Services</h2>
+                 <p class="body__label-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+            <div class="grid wide">
+                 <div class="body__services">
+                     <div class="row sm-gutter">
+                         <div class="col l-4 m-0 c-12">
+                             <div class="body__services-img">
+                                 <div class="body__services-img__background" style="background-image: url(./images/hero-slider-1.jpg) ;" ></div>
+                             </div>
+                         </div>
+                         <div class="col l-4 m-6 c-12 margin-top-30_mobile">
+                             <div class="body__services-content ">
+                                 <div class="body__services-content__img">
+                                     <img src="./images/home.png" alt="">
+                                 </div>
+                                 <h4 class="body__services-content__slogan">Beautiful Condo</h4>
+                                 <p class="body__services-content__text">Even the all-powerful Pointing has no control about the blind texts.</p>
+                             </div>
+                             <div class="body__services-content ">
+                                 <div class="body__services-content__img">
+                                     <img src="./images/email.png" alt="">
+                                 </div>
+                                 <h4 class="body__services-content__slogan">Easy to Connect</h4>
+                                 <p class="body__services-content__text">Even the all-powerful Pointing has no control about the blind texts.</p>
+                             </div>
+                         </div>
+                         <div class="col l-4 m-6 c-12 margin-top-30_mobile">
+                             <div class="body__services-content ">
+                                 <div class="body__services-content__img">
+                                     <img src="./images/restaurant.png" alt="">
+                                 </div>
+                                 <h4 class="body__services-content__slogan">Restaurants & Cafe</h4>
+                                 <p class="body__services-content__text">Even the all-powerful Pointing has no control about the blind texts.</p>
+                             </div>
+                             <div class="body__services-content ">
+                                 <div class="body__services-content__img">
+                                     <img src="./images/phone.png" alt="">
+                                 </div>
+                                 <h4 class="body__services-content__slogan">24/7 Support</h4>
+                                 <p class="body__services-content__text">Even the all-powerful Pointing has no control about the blind texts.</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <!-- end services -->
+
+            <!-- start count -->
+            <div class="grid wide">
+                <div class="body__count">
+                    <ul class="body__count-list">
+                        <li class="body__count-list__item" >
+                            <span class="body__count-list__item-number">9,313</span>
+                            <span class="body__count-list__item-text">No. of Travels</span>
+                        </li>
+
+                        <li class="body__count-list__item">
+                            <span class="body__count-list__item-number">8,492</span>
+                            <span class="body__count-list__item-text">No. of Clients</span>
+                        </li>
+
+                        <li class="body__count-list__item">
+                            <span class="body__count-list__item-number">100</span>
+                            <span class="body__count-list__item-text">No. of Employees</span>
+                        </li>
+
+                        <li class="body__count-list__item">
+                            <span class="body__count-list__item-number">120</span>
+                            <span class="body__count-list__item-text">No. of Countries</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end count -->
+
+            <!--start Popular Destination  -->
+            <div class="body__label">
+                <h2 class="body__label-slogan">Popular Destination</h2>
+            </div>
+            <div class="grid wide">
+                <div class="body__popular">
+                    <div class="row small-pd">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="body__popular-destination">
+                                <img class="body__popular-destination-img" src="./images/img_3.jpg" alt="">
+                                <div class="background-dark-blue"></div>
+                                <div class="body__popular-destination-name">
+                                    <span class="body__popular-destination-name__area">Hawaiian Islands</span>
+                                    <span class="body__popular-destination-name__city">America</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col l-4 m-6 c-0">
+                            <div class="body__popular-destination">                              
+                                <img class="body__popular-destination-img" src="./images/hero-slider-2.jpg" alt="">                             
+                                <div class="background-dark-blue"></div>
+                                <div class="body__popular-destination-name">
+                                    <span class="body__popular-destination-name__area">Oia</span>
+                                    <span class="body__popular-destination-name__city">Greece</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-0 c-0">
+                            <div class="body__popular-destination">
+                                <img class="body__popular-destination-img" src="./images/hero-slider-5.jpg" alt="">
+                                <div class="background-dark-blue"></div>
+                                <div class="body__popular-destination-name">
+                                    <span class="body__popular-destination-name__area">San Francisco, United States</span>
+                                    <span class="body__popular-destination-name__city">United States</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="move-page-wrap">
+                        <span class="move-page move-page-active"></span>
+                        <span class="move-page"></span>
+                    </div>
+                    <div class="body__popular__icon body__popular__icon--left"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="body__popular__icon body__popular__icon--right"><i class="fa-solid fa-arrow-right"></i></div>
+                </div> 
+            </div>
+            <!-- end Popular Destination -->
+
+            <!-- start Testimonials -->
+            <div class="body__testimonials">
+                <div class="grid">
+                    <div class="body__testimonials-heading">
+                        <h2 class="body__label-slogan">Testimonials</h2>
+                   </div>
+                   <div class="body__testimonials-content">
+                       <div class="body__testimonials-content__avatar"> 
+                           <img class="body__testimonials-content__avatar-img" src="./images/person_3.jpg" alt="">
+                       </div>
+                       <div class="body__testimonials-content__info">
+                           <h5 class="body__testimonials-content__info-name">Lukas Devlin</h5>
+                            <p class="body__testimonials-content__info-rv">“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                       </div>
+                       <div class="move-page-wrap--testimonials">
+                            <span class="move-page"></span>
+                            <span class="move-page move-page-active"></span>
+                            <span class="move-page"></span>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <!-- end Testimonials -->
+
+            <!-- start discounts -->
+            <div class="body__discounts">
+               <div class="body__discounts__label">
+                    <h2 class="body__label-slogan">Our Services</h2>
+                    <p class="body__label-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+               </div>
+               <div class="grid wide">
+                    <div class="body__discounts-wrap">
+                        <div class="row sm-gutter">
+                            <div class="col l-3 m-6 mg-bottom_tb-mb c-6">
+                                <div class="body__discounts__content">
+                                    <div class="body__discounts__area">
+                                        <img class="body__discounts__area-img" src="./images/hero-slider-1.jpg" alt="">
+                                    </div>
+                                    <div class="body__discounts__info">
+                                        <div class="body__discounts__info-location">
+                                            <span class="body__discounts__info-location-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                            <span class="body__discounts__info-location-name">Italy</span>
+                                        </div>
+                                        <h3 class="body__discounts__info-name-city"><a href="">Rialto Mountains</a></h3>
+                                        <span class="body__discounts__info-price">$520.00</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col l-3 m-6 mg-bottom_tb-mb c-6">
+                                <div class="body__discounts__content">
+                                    <div class="body__discounts__area">
+                                        <img class="body__discounts__area-img" src="./images/hero-slider-2.jpg" alt="">
+                                    </div>
+                                    <div class="body__discounts__info">
+                                        <div class="body__discounts__info-location">
+                                            <span class="body__discounts__info-location-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                            <span class="body__discounts__info-location-name">United States</span>
+                                        </div>
+                                        <h3 class="body__discounts__info-name-city"><a href="">San Francisco</a></h3>
+                                        <span class="body__discounts__info-price">$520.00</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col l-3 m-6 c-6">
+                                <div class="body__discounts__content">
+                                    <div class="body__discounts__area">
+                                        <img class="body__discounts__area-img" src="./images/hero-slider-3.jpg" alt="">
+                                    </div>
+                                    <div class="body__discounts__info">
+                                        <div class="body__discounts__info-location">
+                                            <span class="body__discounts__info-location-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                            <span class="body__discounts__info-location-name">Malaysia</span>
+                                        </div>
+                                        <h3 class="body__discounts__info-name-city"><a href="">Perhentian Islands</a></h3>
+                                        <span class="body__discounts__info-price">$520.00</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col l-3 m-6 c-6">
+                                <div class="body__discounts__content">
+                                    <div class="body__discounts__area">
+                                        <img class="body__discounts__area-img" src="./images/hero-slider-4.jpg" alt="">
+                                    </div>
+                                    <div class="body__discounts__info">
+                                        <div class="body__discounts__info-location">
+                                            <span class="body__discounts__info-location-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                            <span class="body__discounts__info-location-name">Switzerland</span>
+                                        </div>
+                                        <h3 class="body__discounts__info-name-city"><a href="">Lake Thun</a></h3>
+                                        <span class="body__discounts__info-price">$520.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__discounts__tour-recommend-wrap">
+                        <div class="body__discounts__tour-recommend">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="tour-recommend__background">
+                                        <div class="tour-recommend__background-img" style="background-image: url(./images/hero-slider-2.jpg) ;">
+                                           <div class="tour-recommend__btn-watch-wrap">
+                                                <a class="tour-recommend__btn-watch" href="">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="tour-recommend__info">
+                                        <h2 class="tour-recommend__info-heading">Take a look at Tour Video</h2>
+                                        <p class="tour-recommend__info-review">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        <p class="tour-recommend__info-review">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                        <div class="tour-recommend__info-services-wrap">
+                                            <ul class="tour-recommend__info-services-list">
+                                                <li class="tour-recommend__info-services-name">Outdoor recreation activities</li>
+                                                <li class="tour-recommend__info-services-name">Cruise Lines</li>
+                                                <li class="tour-recommend__info-services-name">Railways</li>
+                                                <li class="tour-recommend__info-services-name">Package Tours</li>
+                                                <li class="tour-recommend__info-services-name">Guide Books</li>
+                                            </ul>
+        
+                                            <ul class="tour-recommend__info-services-list">
+                                                <li class="tour-recommend__info-services-name">Airlines</li>
+                                                <li class="tour-recommend__info-services-name">Car Rentals</li>
+                                                <li class="tour-recommend__info-services-name">Hotels</li>
+                                                <li class="tour-recommend__info-services-name">Travel Insurance</li>
+                                                <li class="tour-recommend__info-services-name">Insurance</li>
+                                            </ul>
+                                        </div>
+                                        <div class="tour-recommend__info__btn-start">
+                                            <a class="tour-recommend__info__btn-start-link" href="">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <!-- end discounts -->
+
+            <!-- start box-contact -->
+            <div class="body__box-contact">
+                <h2 class="body__box-contact-heading">Lets you Explore the Best. Contact Us Now</h2>
+                <h3 class="body__box-contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?</h3>
+                <div class="body__box-contact-btn">
+                    <a class="body__box-contact-btn__link" href="">Get in touch</a>
+                </div>
+            </div>
+            <!-- end box-contact -->
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12 margin-bottom-30_tb">
+                        <span class="footer__heading">About Tour</span>
+                        <p class="footer__text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="footer__social">
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-twitter"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-instagram"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-facebook-f"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-linkedin-in"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-solid fa-basketball"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-pinterest"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-apple"></i></a>
+                            <a href="" class="footer__social__link"><i class="footer__social__link-icon fa-brands fa-google"></i></a>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-5 c-6 margin-bottom-30_tb margin-top-30_mobile">
+                       <div class="footer__wrap"> 
+                            <span class="footer__heading">Page</span>
+                            <ul class="footer__list">
+                                <li class="footer__list__item"><a href="#" class="footer__list__item-link">Blog</a></li>
+                                <li class="footer__list__item"><a href="#" class="footer__list__item-link">About</a></li>
+                                <li class="footer__list__item"><a href="#" class="footer__list__item-link">Contact</a></li>
+                            </ul>
+                       </div>
+                    </div>
+                    <div class="col l-2 m-6 c-6 margin-top-30_mobile">
+                        <span class="footer__heading">Resources</span>
+                        <ul class="footer__list">
+                            <li class="footer__list__item"><a href="#" class="footer__list__item-link">Blog</a></li>
+                            <li class="footer__list__item"><a href="#" class="footer__list__item-link">About</a></li>
+                            <li class="footer__list__item"><a href="#" class="footer__list__item-link">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="footer-contact">
+                            <span class="footer__heading">Contact</span>
+                            <ul class="footer__list">
+                                <li class="footer__list__item"><i class="footer__list__item-icon fa-solid fa-envelope"></i><a href="#" class="footer__list__item-link">mail@example.com</a></li>
+                                <li class="footer__list__item"><i class="footer__list__item-icon fa-solid fa-phone"></i><a href="#" class="footer__list__item-link">+1 222 212 3819</a></li>
+                                <li class="footer__list__item"><i class="footer__list__item-icon fa-solid fa-location-dot"></i><a href="#" class="footer__list__item-link">43 Raymouth Rd. Baltemoer, London 3910</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <span>Copyright ©2022. All Rights Reserved. — Designed with love by <a class="footer__copyright-link" href="">Untree.co</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+</body>
+</html>

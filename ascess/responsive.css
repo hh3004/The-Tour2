@@ -1,0 +1,187 @@
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px) {
+    .margin-bottom-30_tb{
+        margin-bottom: 3rem;
+    }
+
+    .header-content-info__heading{
+        font-size: 4.5rem;
+    }
+
+    .header-content-info__box-control{
+       padding: 3.2rem;
+    }
+
+    .box-header--date{
+        width: 100%;
+    }
+
+    .box-header--tag{
+        margin-top: 1.5rem;
+    }
+
+    .box-header__btn-search{
+        max-width: 50%;
+        margin-top: 3rem;
+    }
+
+    .header__check-box{
+        margin-top: 2.4rem;
+    }
+
+    .body__label-text{
+        max-width: 90%;
+    }
+
+    .body__popular-destination{
+        height: 450px;
+    }
+
+    .tour-recommend__background{
+        max-width: 100%;
+        height: 943px;
+    }
+
+    .tour-recommend__info{
+        padding-left: 0;
+        transform: translateY(60px);
+        margin-bottom: 6rem;
+    }
+
+    .footer__copyright{
+        margin-top: 5.1rem;
+    }
+
+    .footer-contact{
+        padding-left: 3.3rem;
+    }
+}
+
+/* tablet-mobile */
+
+@media (max-width:1023px){
+    .top-bar__list{
+        display: none;
+    }
+
+    .top-bar__tab-mb{
+        display: flex;
+    }
+
+    .mg-bottom_tb-mb{
+        margin-bottom: 3rem;
+    }
+
+}
+
+
+/* mobile */
+
+@media (max-width :739px){
+    .margin-top-30_mobile{
+        margin-top: 30px;
+    }
+
+    .header{
+        padding: 3rem 1.7rem 0;
+    }
+
+    .header-content-info__heading{
+        font-size: 4.5rem;
+        white-space: normal;
+    }
+
+    .header-content-info__box{
+        width: auto;
+    }
+    .header-content-info__box-control{
+        padding: 3rem 3rem;
+    }
+
+    .box-header{
+        margin-bottom: 15px;
+    }
+
+    .box-header--date{
+        width: 100%;
+    }
+
+    .header__check-box{
+        margin: 0;
+    }
+
+    .body__label-text{
+        max-width: 100%;
+    }
+
+    .body__services{
+        padding: 0 1.7rem;
+    }
+
+    .body__services-img{
+       
+        max-width: 100%;
+    }
+    .body__services-img__background{
+        min-height: 300px;
+    }
+
+    .body__count-list{
+        flex-wrap: wrap;
+        padding: 0 1.7rem;
+    }
+
+    .body__count-list__item{
+        margin-bottom: 1.7rem;
+    }
+
+    .body__popular__icon{
+        display: none;
+    }
+
+    .body__popular{
+        padding: 0 1.7rem;
+    }
+
+    .body__testimonials-content__info-rv{
+        max-width: 100%;
+    }
+
+    .tour-recommend__background{
+        height: 520px;
+        max-width: 100%;
+    }
+
+    .tour-recommend__info{
+        transform: translateY(20px);
+        padding: 0;
+    }
+
+    .body__discounts__tour-recommend-wrap,
+    .body__discounts-wrap{
+        padding: 0 1.7rem;
+    }
+
+    .body__box-contact-text,
+    .body__box-contact-heading{
+        max-width: 81%;
+        display: inline-block;
+    }
+
+    .footer{
+        padding: 8.5rem 1.7rem;
+    }
+
+    .footer__wrap{
+        padding: 0;
+    }
+
+    .footer-contact{
+        margin-top: 30px;
+    }
+
+    .footer__copyright-link{
+        display: inline-block;
+    }
+}

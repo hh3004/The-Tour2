@@ -1,0 +1,34 @@
+:root{
+    --primary-header-color: #6998ab;
+    --white-color: #fff;
+    --black-color: #000;
+    --blue-white:#d1dfe5;
+    --dark-blue:#1a374d;
+    --border:#e9ecef;
+    --white-gray:#f8f9fa;
+    --text-color:#22262a;
+    --gray:#c6c7c8;
+
+    --position-popular-icon: -40px;
+    --width-menu-mb-tb:3.1rem;
+}
+
+.mg-bt-30{
+    margin: 0 0 30px;
+}
+
+.move-page{
+    height: 8px;
+    width: 8px;
+    border-radius: 12px;
+    background-color: #cccccc;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.move-page.move-page-active{
+    background-color: var(--dark-blue);
+
+}

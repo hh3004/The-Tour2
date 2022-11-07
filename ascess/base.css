@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+::selection{
+    background-color: black;
+    color: #fff;
+}
+
+input,
+button,
+select{
+    font-family: 'Inter', sans-serif;
+}
+
+div,a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul{
+    list-style: none;
+}
